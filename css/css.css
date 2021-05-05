@@ -1,0 +1,277 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    background: #330000;
+}
+
+.rantsection {
+    height: 13px;
+    margin-bottom: 10px;
+}
+
+    .rantsection img {
+        float: left;
+        height: 13px;
+        width: 13px;
+        border: 0px;
+        margin-right: 5px;
+    }
+
+a:link, a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+s {
+    text-align: center;
+    font-size: 35px;
+    font:arial;
+    text-decoration: none;
+    color:#ff9933;
+  }
+
+#templatemo_container {
+    margin: 0px auto;
+    width: 970px;
+    background: url(imagesCss/main_background.gif) repeat-y;
+}
+
+/*------------ Header --------------- */
+
+#templatemo_header {
+    float: left;
+    width: 900px;
+    padding:0 35px;
+    margin: 15px 0 10px 0;
+}
+
+#templatemo_title {
+    float: left;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+#templatemo_sitetitle {
+    padding: 30px 0 10px 0;
+    font-size: 4.0em;
+    font-weight: bold;
+    color: #FF9933;
+}
+/* -------------- Header bitti------------------ */
+
+/*--- Menu ---*/
+#templatemo_menu {
+    float: right;
+    width: 350px;
+    height: 51px;
+}
+
+    #templatemo_menu ul {
+        float: right;
+        margin: 0;
+        padding: 10px 0 0 40px;
+        list-style: none;
+    }
+
+        #templatemo_menu ul li {
+            display: inline;
+            font-size: 15px;
+        }
+
+            #templatemo_menu ul li a {
+                float: left;
+                width: 100px;
+                height: 20px;
+                margin-top: 10px;
+                padding: 0;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: none;
+                color: #CCCCCC; 
+            }
+
+    #templatemo_menu li a:hover{
+       color: #ff9933;
+    }
+/*---  Menu bitti---*/
+
+/* --------- Banner ---------- */
+#templatemo_banner {
+    clear: both;
+    width: 970px;
+    height: 800px;
+    background: url(imagesCss/background.jpg) no-repeat center;
+}
+
+#templatemo_banner_text {
+    padding: 0px 0 0 0px;
+    width: 970px;
+    text-align: center;
+}
+
+#banner_title {
+    margin: 0 0 50px 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffc601;
+}
+
+#templatemo_banner_text p {
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+/* --------- Banner bitti ---------- */
+
+/*--- Content ---*/
+#templatemo_content {
+    float: left;
+    margin: -120px 0 50px 0;
+    width: 950px;
+    padding: 20px;
+}
+
+    #templatemo_content_text {
+        font-size: 16px;
+    }
+
+     #templatemo_content_title {
+        color: #ff9933;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+   #templatemo_content_name {
+        color: #ff9933;
+        font-weight: bold;
+        margin: 30px 0 10px 0;
+    }
+
+    #templatemo_content_end_title {
+        color: #ff9933;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+/*--- Content bitti---*/
+
+/* ----- Speaker ----- */
+
+#templatemo_speaker {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+    #templatemo_speaker_title {
+        font-size: 40px;
+        color: #ff9933;
+        margin-bottom: 20px;
+    }   
+
+    #templatemo_speaker img:hover {
+        transform: scale(1.3);
+    }
+
+    #templatemo_speaker_text {
+        font-size: 16px;
+    }
+/*--- Speaker bitti---*/
+
+/* ----- info ----- */
+
+#templatemo_info {
+    padding: 20px;
+    margin: 40px;
+}
+
+    #templatemo_info_text {
+        float: left;
+        font-size: 16px;
+    }
+
+    #templatemo_info_text_right {
+        float: right;
+        font-size: 16px;
+    }
+
+    #templatemo_info_title {
+        font-size: 60px;
+        color: #ffc601;
+        margin-bottom: 30px;
+    }
+
+    #templatemo_info_contact {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #templatemo_info_contact_title {
+        color:#ffc601;
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    #templatemo_info_contact input[type="text"] {
+        display: flex;
+        border: 3px solid #ff9933;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 390px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    #templatemo_info_contact textarea{
+        float: right;
+        padding: 10px;
+        border: 3px solid #ff9933;
+        border-radius: 10px;
+        margin-top: -257px;
+        margin-bottom: 10px;
+        width: 390px;
+        height: 222px;
+    }
+
+    #templatemo_info_contact input[type="submit"] {
+        width: 100px;
+        height: 30px;
+        border: 3px solid #ff9933;
+        border-radius: 5px;
+        margin: 20px 0 0 750px;
+    }
+
+
+/* ---- info bitti---- */
+
+/* ----- Footer ----- */
+#templatemo_footer {
+    padding: 15px 0;
+    width: 950px;
+    margin: 0 10px;
+    text-align: center;
+    color: #000000;
+    background: #6c5b4c;
+    text-align: center;
+}
+
+    #templatemo_footer a {
+        color: #000000;
+    }
+
+        #templatemo_footer a:hover {
+            color: #cccc66;
+        }
+/* -----Footer bitti----- */
